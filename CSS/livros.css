@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+}
+
+body {
+    width: 100%;
+
+    font-family: 'Poppins', sans-serif;
+
+    overflow-x: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 16px;
+}
+  
+header {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #e3c789;
+    padding: 32px 0;
+}
+
+#sla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 60%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #282825;
+    border-right: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header a {
+    width: 14%;
+}
+  
+.imgShadow {
+    box-shadow: 24px -16px #a89262;
+}
+  
+#foto{
+    width: 100%;
+    height: 180px;
+    margin-left: 16px;
+    background-image: url("../Images/africa.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+    transition: height 0.25s;
+}
+  
+#foto:hover {
+    width: 100%;
+    height: 200px;
+}
+  
+#foto2{
+    width: 100%;
+    height: 180px;
+    margin-right: 16px;
+    background-image: url("../Images/livros.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+    transition: height 0.25s;
+}
+  
+#foto2:hover {
+    width: 100%;
+    height: 200px;
+}
+
+main {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#separe1{
+    width: 100%;
+  
+    margin: 32px 0;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #282825;
+}
+
+article {
+    display: flex;
+    align-items: center;
+  
+    text-align: center;
+  
+    flex-direction: column;
+  
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+img {
+    height:270px;
+  
+    margin: 16px 0;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #282825;
+    display: flex;
+    justify-content: center;
+}
+
+article a img {
+    height:270px;
+  
+    margin: 16px 0;
+
+    transition: height 0.5s;
+}
+
+article a img:hover {
+    height:290px;
+
+}
+
+article p {
+    width: 70%;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.5;
+    color: #282825;
+}
+
+footer {
+    width: 100%;
+
+    margin-top: 32px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-top: 1px solid #ccc;
+}
+
+#separar{
+    font-size: 2em;
+  
+    width: 100%;
+    padding: 48px 0;
+
+    margin-left: 40px;
+  
+    /* border-bottom: 1px solid #ccc; */
+}

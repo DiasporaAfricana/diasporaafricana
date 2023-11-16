@@ -1,0 +1,401 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  user-select: none;
+}
+
+header {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: #e3c789;
+  padding: 32px 0;
+  margin-top: 0;
+}
+
+header a {
+  width: 16%;
+}
+
+.imgShadow {
+  box-shadow: 24px -16px #a89262;
+}
+
+#foto{
+  width: 100%;
+  height: 180px;
+  margin-left: 16px;
+  background-image: url("../Images/africa.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  transition: height 0.25s;
+}
+
+#foto:hover {
+  width: 100%;
+  height: 200px;
+}
+
+#foto2{
+  width: 100%;
+  height: 180px;
+  margin-right: 16px;
+  background-image: url("../Images/livros.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  transition: height 0.25s;
+}
+
+#foto2:hover {
+  width: 100%;
+  height: 200px;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: #f5f5dc;
+  margin: 0;
+}
+
+#sla{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 80%;
+  height: 100%;
+}
+
+
+#separe1{
+  width: 100%;
+
+  margin: 32px 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #282825;
+  border-right: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #282825;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #282825;
+  display:flex;
+  justify-content: center;
+}
+
+p {
+  font-size: 1.25em;
+  line-height: 1.5;
+  color: #282825;
+}
+
+a {
+  color: #282825;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+
+header h1 {
+  margin-bottom: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  margin: 0 10px;
+}
+
+main {
+  margin: 0 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+article {
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+
+  flex-direction: column;
+
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+article h3 {
+  margin-bottom: 10px;
+}
+
+article p {
+  margin: 16px 0;
+
+  text-align: center;
+
+  width: 50%;
+}
+
+
+#imgIni {
+  width: 800px;
+  height: 600px;
+
+  background-image: url("../Images/diaspora_africana.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#imgIni2 {
+  width: 800px;
+  height: 600px;
+
+  background-image: url("../Images/consequencias.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#imgIni3 {
+  width: 800px;
+  height: 600px;
+
+  background-image: url("../Images/consequencias_africa.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#imgIni4 {
+  width: 800px;
+  height: 600px;
+
+  background-image: url("../Images/revoltas.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#imgIni5 {
+  width: 800px;
+  height: 600px;
+
+  background-image: url("../Images/religiosidade1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#sla{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 60%;
+  height: 100%;
+}
+
+
+#separe1{
+  width: 100%;
+
+  margin: 32px 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #282825;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #282825;
+  display:flex;
+  justify-content: center;
+}
+
+p {
+  font-size: 1.25em;
+  line-height: 1.5;
+  color: #282825;
+}
+
+a {
+  color: #282825;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+
+header h1 {
+  margin-bottom: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  margin: 0 10px;
+}
+
+main {
+  margin: 0 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+article {
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+
+  flex-direction: column;
+
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+article h3 {
+  margin-bottom: 10px;
+}
+
+article p {
+  margin: 16px 0;
+
+  text-align: center;
+
+  width: 50%;
+}
+
+#imgIni {
+  width: 800px;
+  height: 600px;
+
+  background-image: url("../Images/diaspora_africana.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#imgIni2 {
+  width: 800px;
+  height: 600px;
+
+  background-image: url("../Images/consequencias.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#imgIni3 {
+  width: 800px;
+  height: 600px;
+
+  background-image: url("../Images/consequencias_africa.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#imgIni4 {
+  width: 800px;
+  height: 600px;
+
+  background-image: url("../Images/revoltas.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#imgIni5 {
+  width: 800px;
+  height: 600px;
+
+  background-image: url("../Images/religiosidade1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#separar{
+  font-size: 2em;
+
+  width: 100%;
+  padding: 48px 0;
+
+  /* border-bottom: 1px solid #ccc; */
+}
+
+#pray {
+  width: auto;
+  height: 320px;
+
+  margin-top: 24px;
+  margin-bottom: 32px;
+
+  transition: height 0.5s;
+}
+
+#pray:hover {
+  height: 350px;
+}

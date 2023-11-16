@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+}
+
+body {
+    width: 100%;
+
+    font-family: 'Poppins', sans-serif;
+
+    overflow-x: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 16px;
+}
+  
+header {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #e3c789;
+    padding: 32px 0;
+}
+
+header a {
+    width: 14%;
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #282825;
+    border-right: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+main h1 {
+    margin-top: 32px;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.5;
+    color: #282825;
+}
+
+main p {
+    margin-top: 24px;
+  
+    text-align: center;
+  
+    width: 65%;
+}
+
+.imagens {
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+    width: 70%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #7e6a42;
+
+    padding: 16px;
+}
+
+.imagens2 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+    width: 80%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #7e6a42;
+
+    padding: 16px;
+}
+
+.imagens img {
+    box-shadow: 24px -16px #a89262;
+}
+
+.imagens2 img {
+    box-shadow: 24px -16px #a89262;
+}
+
+#foto{
+    width: 100%;
+    height: 180px;
+    margin-left: 16px;
+    background-image: url("../Images/africa.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+    transition: height 0.25s;
+  }
+  
+  #foto:hover {
+    width: 100%;
+    height: 200px;
+  }
+  
+  #foto2{
+    width: 100%;
+    height: 180px;
+    margin-right: 16px;
+    background-image: url("../Images/livros.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+    transition: height 0.25s;
+  }
+  
+  #foto2:hover {
+    width: 100%;
+    height: 200px;
+  }
+
+main {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+article {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding-bottom: 24px;
+
+    border-bottom: 1px solid #ccc;
+}
+
+img {
+    height:270px;
+  
+    margin: 16px 0;
+}
+
+#sla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 60%;
+    height: 100%;
+}
+
+footer {
+    width: 100%;
+
+    margin-top: 32px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-top: 1px solid #ccc;
+}
